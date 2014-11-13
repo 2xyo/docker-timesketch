@@ -8,14 +8,14 @@ RUN DEBIAN_FRONTEND=noninteractive && \
 
 WORKDIR /
 
-RUN git clone https://github.com/google/timesketch.git
+RUN git clone https://github.com/google/timesketch.git app
 
-RUN /usr/bin/pip install django django-tastypie pyelasticsearch pillow
+RUN /usr/bin/pip install -U django django-tastypie pyelasticsearch pillow
 #RUN /env/bin/pip install -r /opt/apps/timesketch/requirements.txt
 
-VOLUME /timesketch/timesketch/settings_local.py
-VOLUME /data
-VOLUME /scripts
+#VOLUME /timesketch/timesketch/settings_local.py
+#VOLUME /data
+#VOLUME /scripts
 
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
