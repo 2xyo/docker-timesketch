@@ -1,4 +1,4 @@
-FROM dockerfile/python
+FROM python
 MAINTAINER 2xyo "yohnn@lepage.info"
 
 RUN DEBIAN_FRONTEND=noninteractive && \
