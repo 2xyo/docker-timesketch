@@ -3,7 +3,7 @@ MAINTAINER 2xyo "yohnn@lepage.info"
 
 RUN DEBIAN_FRONTEND=noninteractive && \
     apt-get update -y && \
-    apt-get install -y libjpeg-dev build-essential
+    apt-get install -y libjpeg-dev build-essential pip
 
 
 WORKDIR /
