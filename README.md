@@ -1,4 +1,9 @@
-docker-timesketch (Work in progress...)
+THIS PROJECT IS DEPRECATED
+=======================================
+
+This docker project is not maintained anymore. Docker support for timesketch is in progress in the official repository. See https://github.com/google/timesketch/pull/148
+
+docker-timesketch 
 =======================================
 
 Automated build of timesketch, an experimental, proof of concept open source tool for collaborative forensic timeline analysis.
